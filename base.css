@@ -68,9 +68,14 @@ body {
 
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background:linear-gradient( #024abd,#013385);
     min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .content {
     background-color: white;
     min-height: 322px;
