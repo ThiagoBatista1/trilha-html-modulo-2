@@ -9,6 +9,7 @@ body {
 
 .wrapper {
     width: 1200px; 
+    height: 870px;
     display: flex;
     margin: 0 auto;
     background-color: aquamarine;
@@ -188,6 +189,72 @@ table tbody tr:hover td{
 }
 .info iframe{
     padding: 20px 0px 20px;
+}
+.form h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    padding:0%;
+    margin: 20px 0px 25px;
+}
+.form input::placeholder,
+.form textarea::placeholder{
+    color: #013385;
+    opacity: 50%;
+}
+.form form{
+    width: 400px;
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    font-weight: 500;
+    display: block;
+    margin-bottom:5px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea{
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    font-weight: 500;
+    width: 100%;
+    color: #013385;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #013183;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form textarea{
+    resize: none;
+}
+.form button{
+    margin: 5px 0px 20px 10px;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #0081fb, #013183);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+.form .btn{
+    /* display: flex;
+    flex-direction: row; */
+    text-align: right;
+}
+.form input:focus,
+.form textarea:focus{
+    outline: 1px solid #013385;
+    color: #013385;
+}
+.form button:hover{
+    background: linear-gradient(#0284fe, #00b1fd);
 }
 .footer {
     display: grid;
